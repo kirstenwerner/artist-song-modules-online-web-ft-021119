@@ -9,8 +9,8 @@ class Artist
   @@all = []
 
   def initialize
-    @@artists << self
-    @all = []
+    @@all << self
+    @songs = []
   end
 
   # def self.find_by_name(name)
